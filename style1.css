@@ -1,0 +1,195 @@
+/* Name: Meet Patel , Student Number: 8980814 */
+body {
+  width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 20px/1.6 , sans-serif;
+    
+    font:400 ;
+ }
+    
+ #gallery {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 10px; 
+  margin-top: 10px;
+  height: 670px;
+  
+}
+.uniform-image {
+  width: 318px;  
+  height: 250px; 
+  object-fit: cover;  
+}
+    
+#gallery figure {
+  border: 1px solid black; 
+  
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+
+  #gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+  .structural {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    
+    
+  }
+  footer {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  header{
+    border: 1px solid #000000;
+    text-align: left;
+    
+    
+   
+  
+  }
+  header h1 {
+    display: inline;
+    color: rgb(255, 0, 0);
+    font-size: 2.5rem;
+  }
+  
+  a:hover {
+    color: cornsilk; 
+    background-color: indigo; 
+  }
+  
+
+  nav.structural ul { 
+    list-style-type: none; 
+  }
+  
+  nav.structural ul li {
+    display: inline; 
+  }
+  
+  nav.structural ul li a {
+    display: inline-block; 
+    text-decoration: none; 
+    border: 2px solid rgb(80, 130, 0); 
+    border-color: rgb(80, 130, 0);
+    color: rgb(80, 130, 0); 
+    background-color: cornsilk; 
+    padding: 1em; 
+  }
+  
+  nav.structural ul li a:hover {
+    color: aqua; 
+    background-color: cornsilk; 
+  }
+  
+  header {
+    background-color: hsl(120, 100%, 50%);
+  }
+  
+  main {
+    background-color: hsl(120, 100%, 50%);
+    flex: 2 1 70%;
+    float: left;
+    width: 70%;
+    
+     font-family: Arial, Helvetica, sans-serif ;
+  }
+  #paragraph1{
+    color: rgb(255, 0, 0);
+  }
+  
+  #paragraph2 {
+    color: rgb(234, 0, 255);
+  }
+  #paragraph3 {
+    color: rgb(0, 38, 255);
+  }
+  #paragraph4 {
+    color:rgb(240, 9, 9);
+  }
+  #paragraph5{
+    color: rgb(255, 0, 200);
+  }
+ 
+
+  aside {
+    background-color: hsl(91, 100%, 50%);
+    flex: 2 1 30%;
+    float: right;
+    width: 22%;
+  }
+  
+  section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+    margin-left: 10px;
+    
+  }
+  form {
+    border: 5px dashed #333; 
+    padding: 5px;
+    height: auto;
+  }
+input[type=text], input[type=email], input[type=submit], select, option 
+{
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+input[type=radio], input[type=checkbox] {
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label, legend, input[type=submit] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+footer {
+  background-color: hsl(180, 100%, 50%);
+  clear: both;
+}
+
+a:hover {
+  color: #ff0;
+}
+
+footer p {
+  font-size: 0.8em;
+}
+main, aside{
+  height: 650px;
+}
